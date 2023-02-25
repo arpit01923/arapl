@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
-import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 
 const Cards = ({ data }) => {
   const navigate = useNavigate();
